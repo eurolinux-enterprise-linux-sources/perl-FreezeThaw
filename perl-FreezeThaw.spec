@@ -1,6 +1,6 @@
 Name:           perl-FreezeThaw
 Version:        0.5001
-Release:        10%{?dist}
+Release:        9%{?dist}
 Summary:        Convert Perl structures to strings and back
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -42,9 +42,6 @@ make test
 %{_mandir}/man3/*.3pm*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.5001-10
-- Mass rebuild 2013-12-27
-
 * Wed Oct 24 2012 Petr Šabata <contyk@redhat.com> - 0.5001-9
 - Specify all dependencies
 - Modernize spec
